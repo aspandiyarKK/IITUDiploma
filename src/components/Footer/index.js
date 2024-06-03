@@ -34,24 +34,24 @@ const Footers = ({ navigation }) => {
             <Group className={styles.group} item={navigation?.['menu']} />
           </div>
           <div className={styles.col}>
-            <AppLink href={`https://www.cosmicjs.com/features`}>
-              <p className={styles.category}>About Cosmic</p>
+            <AppLink href={`https://www.instagram.com/brain_catharsis`}>
+              <p className={styles.category}>About US</p>
             </AppLink>
-            <AppLink href={`https://docs.cosmicjs.com/`}>
+            <AppLink href={`https://github.com/aspandiyarKK/IITUDiploma`}>
               <p className={styles.text}>Documentation</p>
             </AppLink>
-            <AppLink href={`https://www.cosmicjs.com/contact`}>
+            <AppLink href={`https://x.com/iitukz`}>
               <p className={styles.text}>Contact Us</p>
             </AppLink>
             <SocialMedia className={styles.form} />
             <AppLink
-              href={`https://cosmicjs.us5.list-manage.com/subscribe/post?u=15433aab34aefd5450c23fd94&id=028c29b6ca`}
+              href={`https://www.linkedin.com/in/elnaz-almasuly-017354230/`}
             >
               <button
                 aria-hidden="true"
                 className={cn('button', styles.button)}
               >
-                Subscribe Newsletter
+                Main developer
               </button>
             </AppLink>
           </div>
